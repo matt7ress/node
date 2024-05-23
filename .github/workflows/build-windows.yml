@@ -1,6 +1,7 @@
 name: Build Windows
 
 on:
+  workflow_dispatch: null
   pull_request:
     paths-ignore:
       - README.md
